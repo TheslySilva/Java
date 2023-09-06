@@ -15,8 +15,10 @@ public class Coordenadas {
 			System.out.print("Q2");
 		}else if(valorX<0 && valorY <0){
 			System.out.print("Q3");
-		}else{
+		}else if(valorX>0 && valorY<0){
 			System.out.print("Q4");
+		}else{
+			System.out.print("Origem");
 		}
 	}
 }
