@@ -9,7 +9,7 @@ public class Coordenadas {
 		System.out.print("Valor de Y : ");
 		valorY= entrada.nextDouble();
 		
-		if (valorX >0 && valorY >0){
+		if (valorX >0 && valorY >0 ){
 			System.out.print("Q1");
 		}else if(valorX <0 && valorY >0){
 			System.out.print("Q2");
@@ -17,8 +17,12 @@ public class Coordenadas {
 			System.out.print("Q3");
 		}else if(valorX>0 && valorY<0){
 			System.out.print("Q4");
-		}else{
+		}else if (valorX ==0 && valorY==0){
 			System.out.print("Origem");
+		}else if(valorX==0){
+			System.out.print("Eixo X");
+		}else{
+			System.out.print("Eixo Y");
 		}
 	}
 }
