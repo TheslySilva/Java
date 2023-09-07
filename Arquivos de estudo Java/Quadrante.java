@@ -20,6 +20,5 @@ public class Quadrante{
 			System.out.println("Quadrante Q4");
 		}
 		}
-		
 	}
 }
