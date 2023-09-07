@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MeuProjeto{
+public class CrescenteOuDecrescente {
 	
 	public static void main(String[] args) {
 		Scanner entrada= new Scanner(System.in);
@@ -16,7 +16,6 @@ public class MeuProjeto{
 		
 		
 		while (num1!=num2){
-			
 		
 		if (num1<num2){
 				System.out.println("CRESCENTE!");
