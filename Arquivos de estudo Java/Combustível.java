@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class MeuProjeto {
+public class Combustivel {
 	
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class MeuProjeto {
 		b = 0;
 		c = 0;
 		contador = 0;
-		System.out.println("Codigos dos produtos : \n ");
+		System.out.println("Codigo dos produtos : \n ");
 		System.out.println(" 1 - Alcool. \n 2 - Gasolina. \n 3 - Diesel. \n 4 - Para parar. \n ");
 		while (contador != 4) {
 			System.out.print("Informe o codigo do produto : ");
