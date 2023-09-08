@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class MeuProjeto {
+public class SequenciaImpares {
 	
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
