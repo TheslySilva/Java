@@ -18,7 +18,7 @@ public class DentroOuFora {
 		for (i = 1; i <= a; i++) {
 			System.out.print("Digite um numero : ");
 			b = entrada.nextInt();
-			if (b > 10 && b < 20) {
+			if (b >= 10 && b <= 20) {
 				dentro++;
 			} else {
 				fora++;
