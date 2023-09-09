@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class MeuProjeto {
+public class DentroOuFora {
 	
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
@@ -26,7 +26,6 @@ public class MeuProjeto {
 		}
 		System.out.println("");
 		System.out.println("Resultado :\n ");
-		
 		
 		System.out.println("Dentro : " + dentro);
 		System.out.print("Fora : " + fora);
