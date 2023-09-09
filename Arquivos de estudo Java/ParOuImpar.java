@@ -13,17 +13,19 @@ public class ParOuImpar {
 		for (i = 1; i <= contador; i++) {
 			System.out.print("Digite um numero : ");
 			valor = entrada.nextInt();
-			if (valor % 2 == 0) {
+			if (valor ==0){
+				System.out.println("Nulo");
+			}else if (valor % 2 == 0) {
 				if (valor > 0) {
 					System.out.println("Par Positivo");
 				} else {
-					System.out.print("Par negativo");
+					System.out.println("Par negativo");
 				}
 			} else if (valor % 2 != 0) {
 				if (valor > 0) {
-					System.out.print("Impar Positivo");
+					System.out.println("Impar Positivo");
 				} else {
-					System.out.print("Impar Negativo");
+					System.out.println("Impar Negativo");
 				}
 			}
 		}
