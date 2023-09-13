@@ -56,7 +56,7 @@ public class Alturas {
 		}
 		idadeP=(idadeQuant*100)/quant;
 			
-		//tela
+		//Saida
 		
 		alturaMedia= somaAltura/quant;
 		System.out.printf("Altura media : %.2f %n",alturaMedia);
