@@ -26,7 +26,7 @@ public class Alturas {
 		int[] idade = new int[quant];
 		double[] altura = new double[quant];
 		
-		//loop dados
+		//loop entrada de dados
 		
 		for (i = 0; i < quant; i++) {
 			System.out.println("Dados da " + (i+1)+ "\u00b0 pessoa : ");
