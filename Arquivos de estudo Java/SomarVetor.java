@@ -1,19 +1,20 @@
 
 import java.util.Scanner;
 
-public class SomarVetor {
+public class MeuProjeto {
 	
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		
 		int  n,i;
 		double soma,media;
-		//array
-		double[]vetor= new double[5];
 		//
 		System.out.print("Quantos numeros voce vai digitar? ");
 		n= entrada.nextInt();
 		System.out.println("");
+		//array
+		double[]vetor= new double[n];
+		//
 		for (i=0;i<n;i++){
 			System.out.print("Digite um numero : ");
 			vetor[i]= entrada.nextInt();
@@ -29,6 +30,6 @@ public class SomarVetor {
 		System.out.println("");
 		media= soma/n;
 		System.out.println("SOMA = " + soma);
-		System.out.println("MEDIA = "+media);
+		System.out.printf("MEDIA = %.2f %n" ,media);
 	}
 }
