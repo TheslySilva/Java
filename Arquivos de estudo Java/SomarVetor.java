@@ -13,7 +13,7 @@ public class SomarVetor {
 		n= entrada.nextInt();
 		System.out.println("");
 		//array
-		double[]vetor= new double[n];
+		int[]vetor= new int[n];
 		//
 		for (i=0;i<n;i++){
 			System.out.print("Digite um numero : ");
@@ -22,12 +22,12 @@ public class SomarVetor {
 			
 		soma=0;
 		System.out.println("");
-		System.out.print("VALORES = ");
+		System.out.println("Valores :");
+		System.out.println("");
 		for (i=0;i<n;i++){
-			System.out.print(vetor[i]+" ");
+			System.out.println("INDICE  => "+i+" = "+vetor[i]);
 			soma = vetor[i]+soma;
 		}
-		
 		System.out.println("");
 		media= soma/n;
 		System.out.println("SOMA = " + soma);
