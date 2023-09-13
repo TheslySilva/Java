@@ -27,6 +27,7 @@ public class SomarVetor {
 			System.out.print(vetor[i]+" ");
 			soma = vetor[i]+soma;
 		}
+		
 		System.out.println("");
 		media= soma/n;
 		System.out.println("SOMA = " + soma);
