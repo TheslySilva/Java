@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Pares {
+public class NumerosPares {
 	
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
