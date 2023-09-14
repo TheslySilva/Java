@@ -28,6 +28,7 @@ public class AbaixoDaMedia {
 		System.out.println("");
 		System.out.printf("MEDIA DO VETOR = %.3f %n",media);
 		System.out.print("ELEMENTOS ABAIXO DA MEDIA : ");
+		
 		for (i=0;i<n;i++){
 			if (numeros[i]<media){
 				System.out.print(numeros[i]+" ");
