@@ -9,7 +9,7 @@ public class Aprovados {
 		int n,i,x,y;
 		
 	
-		System.out.print("Quantas alunos serao digitados? ");
+		System.out.print("Quantos alunos serao digitados? ");
 		n=entrada.nextInt();
 		System.out.println("");
 		
