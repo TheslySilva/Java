@@ -18,8 +18,6 @@ public class Aprovados {
 		double[] notas2= new double[n];
 		
 		
-		
-		
 		for(i=0;i<n;i++){
 			System.out.println("Dados do "+(i+1)+"° aluno :");
 			System.out.println("");
