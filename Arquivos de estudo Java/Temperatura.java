@@ -9,6 +9,7 @@ public class temperatura {
 		
 		
 		if (escala.equals("F")){
+			
 			System.out.print("Digite a temperatura em Fahrenheit : ");
 			float fahrenheit= entrada.nextInt();
 			float resultado=(float)Math.round((5.0/9.0)*(fahrenheit-32)*100.0)/100f;
