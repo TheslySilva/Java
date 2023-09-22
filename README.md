@@ -1,7 +1,5 @@
 ## Um Pouco da historia
 
-<br \>
-
 A linguagem Java foi criada em 1991 por James Gosling com a colaboração de Patrick Naugthon, Chris Warth, Ed Frank e Mike Sheridan.
 
 <br />
