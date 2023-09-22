@@ -1,10 +1,12 @@
 
 ## Um Pouco da historia JAVA
-![Java](https://i.pinimg.com/736x/3f/06/2f/3f062f75955b143cbf9e00793553452a.jpg)
+![Java](https://i.pinimg.com/736x/d5/ba/4e/d5ba4e7f37ff3f36e4600f407bd284f3--java-tutorials.jpg)
 
 A linguagem Java foi criada em 1991 por James Gosling com a colaboração de Patrick Naugthon, Chris Warth, Ed Frank e Mike Sheridan.
 
 <br />
+
+![James Gosling](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRuT5gbd7QDz85F7sLW-JJ7SWRa6LyQ-aF7Q&usqp=CAU)
 
 Inicialmente ela chamava-se “OAK” e em 1995, ano em que a empresa Microsystems decidiu lançar a linguagem oficialmente, ela foi rebatizada de "JAVA".
 
