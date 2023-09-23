@@ -9,8 +9,10 @@ public class Baskara {
 		//entrada
 		System.out.print("Coeficiente A : ");
 		a= entrada.nextFloat();
+		
 		System.out.print("Coeficiente B : ");
 		b= entrada.nextFloat();
+		
 		System.out.print("Coeficiente C : ");
 		c = entrada.nextFloat();
 		
