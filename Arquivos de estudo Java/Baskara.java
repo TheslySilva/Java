@@ -18,8 +18,11 @@ public class Baskara {
 		
 		//condicoes
 		if (a==0 || delta <0){
+			
 			System.out.print("Esta equacao nao possui raizes reais");
+			
 		}else{
+			
 			x1=(-b + Math.sqrt(delta))/(2*a);
 			x2=(-b - Math.sqrt(delta))/(2*a);
 			
