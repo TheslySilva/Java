@@ -6,12 +6,13 @@ public class MeuProjeto {
 		
 		System.out.print("Hora inicial : ");
 		int inicial= entrada.nextInt();
-		System.out.print("Hora final : ");
-		int final1= entrada.nextInt();
 		
-		if(inicial <= final1 ){
+		System.out.print("Hora final : ");
+		int final= entrada.nextInt();
+		
+		if(inicial <= final ){
 			
-		int resultado = final1-inicial ;
+		int resultado = final-inicial ;
 		
 			if(resultado ==0){
 				
@@ -22,9 +23,9 @@ public class MeuProjeto {
 				System.out.print("O JOGO DUROU "+resultado+ " HORA(S)");
 			}
 			
-		}else if(inicial> final1){
+		}else if(inicial> final){
 			
-			int resultado=( 24-inicial )+final1;
+			int resultado=( 24-inicial )+final;
 			
 			System.out.print("O JOGO DUROU "+resultado+ " HORA(S)");
 		}
