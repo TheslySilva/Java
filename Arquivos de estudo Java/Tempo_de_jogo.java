@@ -23,7 +23,9 @@ public class MeuProjeto {
 			}
 			
 		}else if(inicial> final1){
+			
 			int resultado=( 24-inicial )+final1;
+			
 			System.out.print("O JOGO DUROU "+resultado+ " HORA(S)");
 		}
 	}
