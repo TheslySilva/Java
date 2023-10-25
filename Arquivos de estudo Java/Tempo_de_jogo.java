@@ -10,10 +10,15 @@ public class MeuProjeto {
 		int final1= entrada.nextInt();
 		
 		if(inicial <= final1 ){
+			
 		int resultado = final1-inicial ;
+		
 			if(resultado ==0){
+				
 				System.out.print("O JOGO DUROU "+24+ " HORA(S)");
+				
 			}else{
+				
 				System.out.print("O JOGO DUROU "+resultado+ " HORA(S)");
 			}
 			
